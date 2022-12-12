@@ -1,0 +1,53 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  transition: all 1s linear;
+}
+
+.container
+{
+  width: 100%;
+  height: 100%;
+}
+
+.main_container
+{
+  width: 400px;
+  height: 400px;
+/*   background: rgb(247,247,247); */
+  background: url(https://t4.ftcdn.net/jpg/02/77/55/59/360_F_277555936_spqDYjskxqMfJkHTCOjil6zFttW0pgAY.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+#image1
+{
+  width: 100%;
+}
+
+#image2
+{
+  width: 50px;
+  position: absolute;
+  top: 16px;
+  right: 76px;
+  opacity: 0;
+}
+
+#image3
+{
+  width: 100px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+h1
+{
+  width: 100%;
+  text-align: center;
+  color: #eb904b;
+}
